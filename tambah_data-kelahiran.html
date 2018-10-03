@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CareMed</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="CareMed demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Header -->
+
+    <header class="header trans_200">
+
+        <!-- Top Bar -->
+        <div class="top_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="top_bar_item"><a href="#">FAQ</a></div>
+                            <div class="top_bar_item"><a href="#">Request an Appointment</a></div>
+                            <div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">For Emergencies: +563 47558 623</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Content -->
+        <div class="header_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <nav class="main_nav ml-auto">
+                                <ul>
+                                    <li><a href="index.html">Beranda</a></li>
+                                    <li><a href="data-kelahiran.html">Data Kelahiran</a></li>
+                                    <li><a href="data-pasien.html">Data Pasien</a></li>
+                                    <li><a href="manajemen-obat.html">Manajemen Obat</a></li>
+                                    <li><a href="manajemen-penyakit.html">Manajemen Penyakit</a></li>
+                                </ul>
+                            </nav>
+                            <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo_container_outer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="logo_container">
+                            <a href="#">
+                                <div class="logo_content d-flex flex-column align-items-start justify-content-center">
+                                    <div class="logo_line"></div>
+                                    <div class="logo d-flex flex-row align-items-center justify-content-center">
+                                        <div class="logo_text">Puskesmas<span>Ku</span></div>
+                                        <div class="logo_box">+</div>
+                                    </div>
+                                    <div class="logo_sub">Kabupaten Pinrang</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu_container menu_mm">
+
+        <!-- Menu Close Button -->
+        <div class="menu_close_container">
+            <div class="menu_close"></div>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="menu_inner menu_mm">
+            <div class="menu menu_mm">
+                <ul class="menu_list menu_mm">
+                    <li class="menu_item menu_mm"><a href="index.html">Beranda</a></li>
+                    <li class="menu_item menu_mm"><a href="data-kelahiran.html">Data Kelahiran</a></li>
+                    <li class="menu_item menu_mm"><a href="data-pasien.html">Data Pasien</a></li>
+                    <li class="menu_item menu_mm"><a href="manajemen-obat.html">Manajemen Obat</a></li>
+                    <li class="menu_item menu_mm"><a href="manajemen-penyakit.html">Manajemen Penyakit</a></li>
+                </ul>
+            </div>
+            <div class="menu_extra">
+                <div class="menu_appointment"><a href="#">Request an Appointment</a></div>
+                <div class="menu_emergencies">For Emergencies: +563 47558 623</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Home -->
+
+    <section class="home">
+        <div class="home_slider_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title text-center">
+                            <h2 style="padding-top: 75px;">Tambah Data Kelahiran</h2>
+                            <p>Silahkan masukkan Data kelahiran baru</p>
+                            <br><br>
+                        </div>
+                        <form id="tambah-data">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="nama">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Lengkap">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="orang-tua">Nama Orang Tua</label>
+                                    <input type="text" class="form-control" id="orang-tua" placeholder="Masukkan nama Orang Tua">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="tanggal-lahir">Tanggal Lahir</label>
+                                    <input type="date" class="form-control" id="tanggal-lahir" placeholder="Tanggal Lahir">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="alamat">Alamat</label>
+                                    <input type="text" class="form-control" id="alamat" placeholder="Masukkan alamat">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="berat-badan">Berat Badan</label>
+                                    <input type="number" class="form-control" id="berat-badan">
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center" style="margin: 20px auto;">
+                                <button style="cursor:pointer;" id="submit" type="button" class="btn btn-outline-success">Simpan</button>
+                                <button style="cursor:pointer;" onclick="window.location.href='data-kelahiran.html'" type="reset" class="btn btn-danger">Batal</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Slider Progress -->
+            <div class="home_slider_progress"></div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
+                            <div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Pemerintah Kab. Pinrang. All rights reserved
+                            </div>
+                            <div class="footer_social ml-lg-auto">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
